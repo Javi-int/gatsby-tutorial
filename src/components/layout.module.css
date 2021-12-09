@@ -45,3 +45,13 @@
     color: purple;
     transition: 250ms ease-in-out;
 }
+
+.credits-label {
+    color: darkmagenta;
+    font-weight: bold;
+}
+
+.credits {
+    font-size: 14px;
+    color: gray;
+}

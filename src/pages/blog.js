@@ -1,6 +1,10 @@
 import * as React from 'react'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
+import {
+  navLink,
+  credits
+} from '../components/layout.module.css'
 
 const BlogPage = ({ data }) => {
   return(
@@ -11,10 +15,11 @@ const BlogPage = ({ data }) => {
             <article key={node.id}>
               <Link
                 to={node.slug}
+                className={navLink}
               >
                 <h2>{node.frontmatter.title}</h2>
               </Link>
-              <p>
+              <p className={credits}>
                 {node.frontmatter.date} | 
                 <span> {node.frontmatter.author}</span>
               </p>

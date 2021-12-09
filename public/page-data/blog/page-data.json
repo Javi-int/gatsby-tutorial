@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-pages-blog-js",
     "path": "/blog/",
-    "result": {"data":{"allMdx":{"nodes":[{"frontmatter":{"title":"Top canciones de Arjona","date":"08-12-2021","author":"Pongan Bachata"},"id":"ecacfef2-18ac-570f-88e5-fe138e1077ff","slug":"top-canciones-de-arjona"},{"frontmatter":{"title":"Pako es el Hombre Pez","date":"08-12-2021","author":"Sergio López"},"id":"e4c8681f-d1f9-5056-82c0-d4b7d110a0d8","slug":"pako-es-el-hombre-pez"},{"frontmatter":{"title":"Mario es una llama","date":"08-12-2021","author":"Dr. El Rigo"},"id":"08b3ce73-aadb-5b99-85a3-c208aca245a2","slug":"mario-es-una-llama"}]}},"pageContext":{}},
+    "result": {"data":{"allMdx":{"nodes":[{"frontmatter":{"title":"Mario es una llama","date":"08-12-2021","author":"Dr. El Rigo"},"id":"fe318517-6d9a-5e7c-9401-70729d3395d7","slug":"mario-es-una-llama/"},{"frontmatter":{"title":"Pako es el Hombre Pez","date":"08-12-2021","author":"Sergio López"},"id":"6e4e516b-dc7a-51fe-a56c-89ccc4516b86","slug":"pako-es-el-hombre-pez/"},{"frontmatter":{"title":"Top canciones de Arjona","date":"08-12-2021","author":"Pongan Bachata"},"id":"2e585792-32ce-53ee-9fd8-25e59112a414","slug":"top-canciones-de-arjona/"}]}},"pageContext":{}},
     "staticQueryHashes": ["3159585216"]}
