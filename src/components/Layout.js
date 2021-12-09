@@ -13,7 +13,6 @@ import {
 
 
 const Layout = ({ pageTitle, children }) => {
-  const pathname = window.location.pathname
 
   const data = useStaticQuery(graphql`
     query {
@@ -34,7 +33,7 @@ const Layout = ({ pageTitle, children }) => {
             <Link 
               to='/' 
               className={
-                pathname === '/' ? navLinkActive : navLink
+                pageTitle === 'Home' ? navLinkActive : navLink
               }
             >
               Home
@@ -44,7 +43,7 @@ const Layout = ({ pageTitle, children }) => {
             <Link 
               to='/about' 
               className={
-                pathname === '/about' ? navLinkActive : navLink
+                pageTitle === 'Sobre Mí' ? navLinkActive : navLink
               }
             >
               Sobre Mí
@@ -54,7 +53,7 @@ const Layout = ({ pageTitle, children }) => {
             <Link 
               to='/blog' 
               className={
-                pathname === '/blog' ? navLinkActive : navLink
+                pageTitle === 'Blog' ? navLinkActive : navLink
               }
             >
               Blog
